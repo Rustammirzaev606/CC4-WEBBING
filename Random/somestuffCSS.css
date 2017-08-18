@@ -1,0 +1,24 @@
+body {
+
+  background-color: #99ccc4;
+}
+#nav {
+  background-color: #c3e2dd;
+}
+.mid {
+height: 400px;
+width: 100%;
+  background-color: #3c5572;
+}
+div img { float: left;
+background-color: #3c5572;
+padding: 8px 8px 0px 25px;
+height: auto;
+width: auto;
+
+}
+div span{
+  border: 2px solid
+  letter-spacing: 3px;
+  text-align: left;
+}

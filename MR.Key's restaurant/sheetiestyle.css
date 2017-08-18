@@ -1,0 +1,21 @@
+#logo {
+display: block;
+margin: auto;
+height: 200px;
+}
+.qwe  {
+display: block;
+
+height: 40px;
+}
+.asd {
+  text-align: center;
+}
+.pics {
+  display: block;
+  margin: auto;
+}
+#email {
+  text-decoration: none;
+  color: black;
+}
