@@ -1,0 +1,14 @@
+.mid {
+  text-align: center;
+}
+.container {
+  background-color: rgb(43, 190, 197);
+
+}
+.row {
+
+}
+body {
+  background-image: url("../pictures/pac.jpg");
+  background-blend-mode: overlay;
+}
