@@ -1,0 +1,27 @@
+.jumbotron img{
+  display: block;
+  margin: auto;
+}
+.jumbotron {
+  text-align: center;
+  background-color: orchid;
+}
+body {
+  margin: 0 40 0 40;
+  background-color: blue;
+}
+.row {
+  background-color: red;
+  text-align: center;
+}
+p {
+  font-size: 21px;
+  }
+#asd {
+  font-size: 25px;
+  background: yellow;
+}
+button {
+  display: block;
+  margin: auto;
+}
