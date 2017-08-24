@@ -1,27 +1,28 @@
-table {
-  font-size: 24px;
-}
+.bigboi {
 
 
-th, td {
-  padding: 15px;
-  border-collapse: collapse;
-}
-tr:nth-child(odd) {
-  background-color: #666;
-}
-tr:nth-child(even) {
-  background-color: #f2f2f2;
 }
 th {
-  background-color: red;
+  background-color: #666;
 }
-.buyBtn {
-  height: 35px;
-  width: 110px;
-  background-color: yellow;
-  border: none;
+td {
+
+  text-align: center;
+  background-color: #efefef;
+  font-size: 18px;
 }
-.buyBtn:hover {
-  background-color: green;
+td > img {
+  height: 150px;
+  width: 200px;
+
+}
+td > button {
+  height: 44px;
+  width: 77px;
+}
+#coin {
+  width: 100px;
+}
+#bout {
+  width: 40%;
 }

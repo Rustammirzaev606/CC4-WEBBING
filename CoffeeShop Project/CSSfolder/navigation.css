@@ -12,6 +12,10 @@ nav {
   background: #1bb76e;
 
 }
+nav > h1 > a {
+  text-decoration: none;
+  color: black;
+}
 nav > h1 {
   float: left;
   text-align: center;

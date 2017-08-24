@@ -1,0 +1,42 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+#bro > ul {
+  float: left;
+  height: 102px;
+  background-color: pink;
+  font-size: 24px;
+}
+#bro > ul > li {
+  float: left;
+  width: 180px;
+  line-height: 102px;
+
+}
+#bro > ul > li > a  {
+  color: #666;
+  padding: 50px;
+
+}
+#bro > ul > li > ul {
+  display: none;
+}
+#bro > ul > li:hover > ul {
+  display: block;
+}
+td > img {
+  height: 100px; width: 150px;
+}
+#coin {
+  width: 100px;
+}
+#meme {
+  width: 150px;
+}
+table {
+  text-align: center;
+}
+th {
+  text-align: center;
+}
