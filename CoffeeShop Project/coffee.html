@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <title>Coffee Shop</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="CSSfolder/coffee.css">
+    <link rel="stylesheet" href="CSSfolder/common.css">
+    <script type="text/javascript" src="JSfolder/common.js">
+    </script>
   </head>
   <body>
     <div class="container">
@@ -25,24 +27,44 @@
               <td><img src="Pixs\697d58d1cdf2c576f6018a66edc186bbca5b9dd9.jpg" alt="Cappuccino Cup"></td>
               <td>A cappuccino is an Italian coffee drink that is traditionally prepared with double espresso, and steamed milk foam. Variations of the drink involve the use of cream instead of milk, and flavoring with cinnamon or chocolate powder</td>
               <td><form class="rad">
-                <input type="radio" name="q" value=""> 8 Oz $5 <br>
-                <input type="radio" name="q" value=""> 12 Oz $7 <br>
-                <input type="radio" name="q" value="">  15 Oz $9
+                <input type="radio" name="q" id="_1"> 8 Oz $5 <br>
+                <input type="radio" name="q" id="_2"> 12 Oz $7 <br>
+                <input type="radio" name="q" id="_3">  15 Oz $9
               </form></td>
-              <td><button type="button" class="subCap">Buy Now</button></td>
+              <td><button type="button" class="subCap" onclick="lickMe()">Buy Now</button></td>
+            </tr>
+            <tr>
+              <td><img src="Pixs\ristretto.jpg" alt="Cappuccino Cup"></td>
+              <td>Ristretto is traditionally a short shot of espresso coffee made with the normal amount of ground coffee but extracted with about half the amount of water</td>
+              <td><form class="rad">
+                <input type="radio" name="q" id="_4"> 8 Oz $5 <br>
+                <input type="radio" name="q" id="_5"> 12 Oz $7 <br>
+                <input type="radio" name="q" id="_6">  15 Oz $9
+              </form></td>
+              <td><button type="button" class="subCap" onclick="lickMe2()">Buy Now</button></td>
+            </tr>
+            <tr>
+              <td><img src="Pixs\flatwhite.jpg" alt="Cappuccino Cup"></td>
+              <td>A flat white is an espresso-based coffee beverage. The beverage is prepared by pouring microfoam over a single or double shot of espresso.</td>
+              <td><form class="rad">
+                <input type="radio" name="q" id="_7"> 8 Oz $5 <br>
+                <input type="radio" name="q" id="_8"> 12 Oz $7 <br>
+                <input type="radio" name="q" id="_9">  15 Oz $9
+              </form></td>
+              <td><button type="button" class="subCap" onclick="lickMe3()">Buy Now</button></td>
+            </tr>
+            <tr>
+              <td><img src="Pixs\mocha.jpg" alt="Cappuccino Cup"></td>
+              <td>A caffè mocha, also called mocaccino, is a chocolate-flavored variant of a caffè latte. Other commonly used spellings are mochaccino and also mochachino.</td>
+              <td><form class="rad">
+                <input type="radio" name="q" id="_10"> 8 Oz $5 <br>
+                <input type="radio" name="q" id="_11"> 12 Oz $7 <br>
+                <input type="radio" name="q" id="_12">  15 Oz $9
+              </form></td>
+              <td><button type="button" class="subCap" onclick="lickMe()4">Buy Now</button></td>
             </tr>
           </table>
-
       </div>
-
-
-
-
-
-
-
-
-
     </div>
 
   </body>
