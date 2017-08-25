@@ -1,28 +1,52 @@
-.bigboi {
-
+* {
+  margin: 0px;
+}
+body {
+  margin: 0 0 0 0;
+  background-color: #999;
+}
+.container  {
+  width: 100% ;
 
 }
-th {
-  background-color: #666;
-}
-td {
-
+.jumbotron   {
   text-align: center;
-  background-color: #efefef;
-  font-size: 18px;
+  background-color: #034803;
+  color: #136cb9;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  }
+.jumbotron > h1 > a  {
+    color: yellow;
+    }
+.jumbotron  > h1 > a:hover  {
+      text-decoration: none;
+      color: red;
+      }
+.table {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  }
+ tr > th {
+  text-align: center;
+  /*width: 250px;*/
 }
 td > img {
-  height: 150px;
-  width: 200px;
+    width: 250px;
+    height: 150px;
+}
+tr > .sub {
 
+  width: 150px;
 }
-td > button {
-  height: 44px;
-  width: 77px;
+tr {
+  border-bottom: 2px solid black;
 }
-#coin {
-  width: 100px;
+td {
+  border-right: 2px solid black;
 }
-#bout {
-  width: 40%;
+.rad {
+  padding-left: 25px;
+  text-align: left;
 }
